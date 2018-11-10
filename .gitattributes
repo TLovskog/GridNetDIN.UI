@@ -1,0 +1,8 @@
+# Treat all Altium files as binary
+ELECTRONICS/* binary
+
+# Treat all mechanic files as binary
+MECHANICS/* binary
+
+# Mac OS Software specials
+SOFTWARE/*.pbxproj binary

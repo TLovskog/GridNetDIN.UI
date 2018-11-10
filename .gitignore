@@ -1,0 +1,96 @@
+# .gitignore
+#########################################################################
+# VARIOUS
+#########################################################################
+
+# Ignore OS junk
+.DS_Store
+[Tt]humbs.db
+
+#########################################################################
+# ELECTRONICS
+#########################################################################
+
+# Ignore the subdirectory where job outputs are placed
+/ELECTRONICS/**/GeneratedOutput
+/ELECTRONICS/**/Output
+/ELECTRONICS/**/Outputs
+
+# Ignore Various derived files
+/ELECTRONICS/**/Project Logs for *
+/ELECTRONICS/**/Project Outputs for *
+
+# Ignore autosave files (anything that begins with a tilde)
+~*
+
+# Ignore History and Previews
+/ELECTRONICS/**/History
+/ELECTRONICS/**/__Previews
+
+# Various files
+/ELECTRONICS/*.dat
+/ELECTRONICS/*.Cam
+/ELECTRONICS/*.PrjPcbStructure
+/ELECTRONICS/*.PrjPCBStructure
+/ELECTRONICS/*.PrjPCBVariants
+/ELECTRONICS/*.SchDocPreview
+/ELECTRONICS/*.PcbDocPreview
+/ELECTRONICS/*.htm
+/ELECTRONICS/*.REP
+
+#########################################################################
+# RELEASE
+#########################################################################
+
+# Ignore everything exceppt .zip files
+
+!/RELEASES/*/.zip
+
+#########################################################################
+# MECHANICS
+#########################################################################
+
+#########################################################################
+# SOFTWARE
+#########################################################################
+
+#Visual Studio files
+/SOFTWARE/**/*.[Oo]bj
+/SOFTWARE/**/*.user
+/SOFTWARE/**/*.aps
+/SOFTWARE/**/*.pch
+/SOFTWARE/**/*.vspscc
+/SOFTWARE/**/*.vssscc
+/SOFTWARE/**/*_i.c
+/SOFTWARE/**/*_p.c
+/SOFTWARE/**/*.ncb
+/SOFTWARE/**/*.suo
+/SOFTWARE/**/*.tlb
+/SOFTWARE/**/*.tlh
+/SOFTWARE/**/*.bak
+/SOFTWARE/**/*.[Cc]ache
+/SOFTWARE/**/*.ilk
+/SOFTWARE/**/*.log
+/SOFTWARE/**/*.lib
+/SOFTWARE/**/*.sbr
+/SOFTWARE/**/*.sdf
+/SOFTWARE/**/ipch/
+/SOFTWARE/**/obj/
+/SOFTWARE/**/[Bb]in
+/SOFTWARE/**/[Dd]ebug*/
+/SOFTWARE/**/[Rr]elease*/
+/SOFTWARE/**/Ankh.NoLoad
+
+#########################################################################
+# FIRMWARE
+#########################################################################
+
+# Microchip
+/FIRMWARE/**/build
+/FIRMWARE/**/dist
+/FIRMWARE/**/debug
+
+#########################################################################
+# VHDL
+#########################################################################
+
